@@ -5,11 +5,11 @@
 
 #include "Animal.h"
 
-class Dog : Animal
+class Dog : public Animal
 {
 public:
 	Dog(const std::string& name);
-	void makesound() const override;
+	void makeSound() const override;
 	void printInfo() const override;
 };
 

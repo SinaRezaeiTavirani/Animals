@@ -11,7 +11,7 @@ protected:
 	std::string name;
 public:
 	Animal(const std::string& name);
-	virtual void makesound() const = 0 ;
+	virtual void makeSound() const = 0 ;
 	virtual void printInfo() const;
 };
 

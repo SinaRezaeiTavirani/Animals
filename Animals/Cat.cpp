@@ -4,7 +4,7 @@
 Cat::Cat(const std::string& name) :Animal(name)
 {}
 
-void Cat::makesound() const
+void Cat::makeSound() const
 {
 	std::cout << "Meow! Meow!"<<std::endl;
 }

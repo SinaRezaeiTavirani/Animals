@@ -2,7 +2,7 @@
 
 
 Dog::Dog(const std::string& name) :Animal(name) {}
-void Dog::makesound() const{
+void Dog::makeSound() const{
 	std::cout << "Woof! Woof!" << std::endl;
 }
 void Dog::printInfo() const {

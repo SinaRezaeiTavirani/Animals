@@ -7,7 +7,7 @@ class Cat: public Animal
 {
 public:
 	Cat(const std::string& name);
-	void makesound() const override;
+	void makeSound() const override;
 	void printInfo() const  override;
 
 };
