@@ -1,3 +1,4 @@
+
 #pragma once
 #ifndef ANIMAL_H 
 #define ANIMAL_H
@@ -10,7 +11,7 @@ protected:
 	std::string name;
 public:
 	Animal(const std::string& name);
-	virtual void makesound() const;
+	virtual void makesound() const = 0 ;
 	virtual void printInfo() const;
 };
 

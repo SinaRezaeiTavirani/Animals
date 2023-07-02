@@ -1,7 +1,8 @@
 #include "Animal.h"
-
+#include "Dog.h"
 
 int main() {
-	Animal cat("john");
-	cat.printInfo();
+	Dog dog("buddy");
+	dog.makesound();
+	dog.printInfo();
 }
